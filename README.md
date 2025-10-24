@@ -1,2 +1,2 @@
 # Finance-project
-Finance project by Vadym Besedovskyi
+Finance project by Vadym
