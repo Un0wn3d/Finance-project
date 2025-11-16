@@ -153,6 +153,7 @@ coverage*.info
 
 # NCrunch
 _NCrunch_*
+
 .*crunch*.local.xml
 nCrunchTemp_*
 
@@ -294,6 +295,7 @@ node_modules/
 # Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
 *.vbw
 
+
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
@@ -361,5 +363,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
 
 BudgetPlanningApp/App.config
