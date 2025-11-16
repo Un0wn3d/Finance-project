@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BudgetPlanningApp.AppCode.AccountsApp">
+    <Position X="0.75" Y="4" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>AppCode\AccountsApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetPlanningApp.AppCode.EncryptData">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>AppCode\EncryptData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetPlanningApp.AppCode.NamesMy">
+    <Position X="4.5" Y="1" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="BudgetPlanningApp.AppCode.NamesMy.ProgramButtons" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppCode\NamesMy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BudgetPlanningApp.AppCode.NamesMy.ProgramComBoxMessage" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppCode\NamesMy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BudgetPlanningApp.AppCode.NamesMy.SizeOptins" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppCode\NamesMy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BudgetPlanningApp.AppCode.NamesMy.NoDataNames" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppCode\NamesMy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BudgetPlanningApp.AppCode.NamesMy.MessageBoxExaption" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>AppCode\NamesMy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppCode\NamesMy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BudgetPlanningApp.AppCode.ValidationMy">
+    <Position X="7.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAABAAAAQAQAAQAhAEAIAABAAAIAgAA=</HashCode>
+      <FileName>AppCode\ValidationMy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storys">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgAAIA=</HashCode>
+      <FileName>AppCode\AccountsApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonthlyExpense">
+    <Position X="1" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAADAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>AppCode\AccountsApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlanFactRow">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAACAAAAQAAAACAAAAAAABAAAAABAAA=</HashCode>
+      <FileName>AppCode\AccountsApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Role">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAABAAAAAAAAAAAAAAAAAAAEAAEAAAAAA=</HashCode>
+      <FileName>AppCode\RoleApp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object">
+    <Position X="7.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
