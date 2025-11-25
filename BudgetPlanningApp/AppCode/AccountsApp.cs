@@ -22,8 +22,8 @@ namespace BudgetPlanningApp.AppCode {
       string sql = @"
             SELECT 
                 DATE(t.TransactionDate)    AS DayVal,
-                SUM(CASE WHEN t.TransactionType = 'expense' THEN t.Amount ELSE 0 END) AS SpendingSumma,
-                SUM(CASE WHEN t.TransactionType = 'income'  THEN t.Amount ELSE 0 END) AS ProfitSumma
+                SUM(CASE WHEN t.TransactionType = 'Витрати' THEN t.Amount ELSE 0 END) AS SpendingSumma,
+                SUM(CASE WHEN t.TransactionType = 'Доходи'  THEN t.Amount ELSE 0 END) AS ProfitSumma
             FROM transactions t
             WHERE t.UserId = @UserId
               AND t.ItemId = @ItemId
@@ -73,7 +73,7 @@ namespace BudgetPlanningApp.AppCode {
             SELECT
                 YEAR(t.TransactionDate)  AS Y,
                 MONTH(t.TransactionDate) AS M,
-                SUM(CASE WHEN t.TransactionType = 'expense' THEN t.Amount ELSE 0 END) AS ExpenseSum
+                SUM(CASE WHEN t.TransactionType = 'Витрати' THEN t.Amount ELSE 0 END) AS ExpenseSum
             FROM transactions t
             WHERE t.UserId = @UserId
               AND t.TransactionDate >= @FromStart
@@ -119,14 +119,14 @@ namespace BudgetPlanningApp.AppCode {
                 bc.CategoryName,
                 bi.ItemName,
                 COALESCE(bi.DefaultAmount, 0)                                  AS Planned,
-                COALESCE(SUM(CASE WHEN t.TransactionType = 'expense'
+                COALESCE(SUM(CASE WHEN t.TransactionType = 'Витрати'
                                    THEN t.Amount END), 0)                        AS Actual
             FROM budget_items bi
             JOIN budget_categories bc ON bc.CategoryId = bi.CategoryId
             LEFT JOIN transactions t
                 ON t.ItemId = bi.ItemId
                AND t.UserId = @UserId
-               AND t.TransactionType = 'expense'
+               AND t.TransactionType = 'Витрати'
                AND t.TransactionDate >= @MonthStart
                AND t.TransactionDate <  @NextMonthStart
             WHERE bc.IsActive = 1

@@ -99,8 +99,8 @@
       this.TransactionTypeCBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
       this.TransactionTypeCBox.FormattingEnabled = true;
       this.TransactionTypeCBox.Items.AddRange(new object[] {
-            "expense",
-            "income"});
+            "Витрати",
+            "Доходи"});
       this.TransactionTypeCBox.Location = new System.Drawing.Point(187, 142);
       this.TransactionTypeCBox.Name = "TransactionTypeCBox";
       this.TransactionTypeCBox.Size = new System.Drawing.Size(141, 24);

@@ -246,7 +246,7 @@ namespace BudgetPlanningApp.Providers {
             FROM transactions
             WHERE UserId = @UserId
               AND ItemId = @ItemId
-              AND TransactionType = 'expense'
+              AND TransactionType = 'Витрати'
               AND TransactionDate >= @MonthStart
               AND TransactionDate <  @NextMonthStart";
         using (var cmd = new MySqlCommand(sql, connection)) {
